@@ -1,7 +1,10 @@
 .card_main{
     width: 100%;
-    height: 100%;
-    background-color: wheat;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background-color: rgba(245, 222, 179, 0.285);
 }
 .content_title {
     width: 100%;
@@ -10,3 +13,15 @@
     border: 1px solid black;
     padding: 1%;
 }
+@media (max-width: 768px) {}
+/*============== Scren 425=============*/
+@media (max-width: 428px) {
+    .content_title{
+        font-size: 1.5rem;
+        text-align: center;
+        height: auto;
+
+    }
+}
+/*============== Scren 375=============*/
+@media (max-width: 375px) {}
