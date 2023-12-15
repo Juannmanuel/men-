@@ -4,9 +4,9 @@ function Menu() {
   const titles = [
     "https://www.themealdb.com/images/media/meals/sytuqu1511553755.jpg",
     "https://www.themealdb.com/images/media/meals/pkopc31683207947.jpg",
-    "https://www.themealdb.com/images/media/meals/z0ageb1583189517.jpg",
+    "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
     "https://www.themealdb.com/images/media/meals/vtqxtu1511784197.jpg",
-    "https://www.themealdb.com/images/media/meals/020z181619788503.jpg",
+    "https://www.themealdb.com/images/media/meals/uuuspp1511297945.jpg",
   ];
 
   return (
