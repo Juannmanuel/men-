@@ -17,9 +17,10 @@
 /*============== Scren 425=============*/
 @media (max-width: 428px) {
     .content_title{
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         text-align: center;
-        height: auto;
+        height: 18%;
+        
 
     }
 }
