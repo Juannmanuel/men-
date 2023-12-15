@@ -13,17 +13,7 @@ function SubMenu() {
   ];
   return (
     <section className={style.submenu_main}>
-      <Navbar />
-      <div className={style.container_submenu}>
-        {titles.map((item) => (
-          <div className={style.title_submenu}>
-            <Link to="/menu">
-              <h2>{item}</h2>
-            </Link>
-          </div>
-        ))}
-      </div>
-      <Footer />
+      <h2><Link to={"/menu"}>Submenu</Link></h2>
     </section>
   );
 }

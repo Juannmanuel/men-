@@ -17,8 +17,8 @@ function App() {
   console.log(pathname);
 
   return (
-    <div className="app_main">
-      <Navbar/>
+    <div className={pathname === "/menu" || pathname === "/submenu" ? "app_main_menu" : "app_main"}>
+      <Navbar pathname={pathname}/>
       <Routes>
         <Route path="/submenu" element={<SubMenu />} />
         <Route path="/" element={<Home />} />

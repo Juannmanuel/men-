@@ -7,8 +7,17 @@
     top: 0;
     left: 0;
     background-color: white;
-    
 }
+.navbar_main_menu{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.291); 
+}    
 
 /*============== Scren 1440 =============*/
 @media (max-width: 1440px) {}
