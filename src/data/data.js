@@ -1,4 +1,5 @@
-export default categorias = ["Cafetería","Entradas","Platos Principales","Ensaladas", "Tapas o Bocadillos"]
+export default categorias = ["Cafetería","Entradas","Platos Principales","Ensaladas", "Tapas o Bocadillos"
+]
  
  export const platos = [{
     "Beef": [

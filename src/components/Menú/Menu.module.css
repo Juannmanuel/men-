@@ -1,0 +1,14 @@
+.menu_main {
+  background-color: aqua;
+  width: 100%;
+  display: block;
+  height: auto;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.content_menu {
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: start;
+  background-color: antiquewhite;
+}

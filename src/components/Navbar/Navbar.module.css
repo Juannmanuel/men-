@@ -1,10 +1,11 @@
 .navbar_main {
     display: flex;
     width: 100%;
-    height: 10%;
+    height: 10vh;
     border: 1px solid black;
     position: fixed;
     top: 0;
+    left: 0;
     background-color: white;
     
 }
@@ -18,6 +19,6 @@
 /*============== Scren 770=============*/
 @media (max-width: 768px) {}
 /*============== Scren 425=============*/
-@media (max-width: 425px) {}
+@media (max-width: 428px) {}
 /*============== Scren 375=============*/
 @media (max-width: 375px) {}
