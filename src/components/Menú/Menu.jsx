@@ -12,7 +12,13 @@ function Menu() {
   return (
     <div className={style.menu_main}>
       {titles.map((item) => (
-        <div className={style.content_menu}><img src={item} alt="Comida" /></div>
+        <div className={style.content_menu} style={{backgroundImage: `url(${item})`}}>
+          <div className={style.descriptio_menu}>
+            <h2>asdasdasda</h2>
+            <h3>asdasdasda</h3>
+            <h4>$400</h4>
+          </div>
+        </div>
       ))}
     </div>
   );
