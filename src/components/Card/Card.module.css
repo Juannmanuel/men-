@@ -1,0 +1,12 @@
+.card_main{
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+}
+.content_title {
+    width: 100%;
+    height: 30%;
+    text-align: start;
+    border: 1px solid black;
+    padding: 1%;
+}
