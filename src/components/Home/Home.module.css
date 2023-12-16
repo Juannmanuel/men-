@@ -9,7 +9,7 @@
 }
 .container_titles {
   width: 100%;
-  height: ;
+  height: auto;
   min-height: 100vh;
   background-color: azure;
   overflow-y: auto;

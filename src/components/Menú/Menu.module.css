@@ -1,3 +1,4 @@
+/*contenedor principal menu*/
 .menu_main {
   background-color: aqua;
   width: 100%;
@@ -6,6 +7,7 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
+/*contenedor del munu*/
 .content_menu {
   width: 100%;
   height: 100vh;
@@ -15,38 +17,36 @@
   background-size: cover;
   position: relative;
 }
-.content_menu img {
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 5%;
-  left: 5%;
-}
-.container_title {
+/*contenedor del componente card*/
+.container_card {
   position: absolute;
   display: flex;
   flex-flow: column nowrap;
   justify-content: start;
-  top: 0;
-  left: 5%;
-  width: 90%;
-  height: 13.5%;
-  border: 1px solid rgb(184, 21, 21);
-  backdrop-filter: blur(2px);
-}
-.category{
-  position: absolute;
   bottom: 0;
+  left: 0;
+  width: 50%;
+  max-height: 30%;
+  height: auto;
+  border: 1px solid rgb(95, 38, 38);
+
+}
+.container_title{
+  position: absolute;
+  top: 1%;
   display: flex;
-  right: 10%;
-  background-color: aliceblue;
-  width: auto;
-  height: 4%;
+  right: 5%;
+  background-color: rgba(240, 248, 255, 0.497);
+  width: 90%;
+  height: 15%;
+  justify-content: center;
   text-align: center;
   align-items: center;
   font-size: 140%;
-  padding: 1%;
+  padding: 1% 2%;
+  backdrop-filter: blur(2px);
+  border-radius: 5%;
+  text-shadow: 0 0 1px black;
 }
 
 @media (max-width: 768px) {}
@@ -57,9 +57,7 @@
     bottom: 0;
     right: 0
   }
-  .container_title{
-    bottom: 0;
-  }
+
 }
 /*============== Scren 375=============*/
 @media (max-width: 375px) {}

@@ -1,6 +1,6 @@
 .card_main{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -8,19 +8,19 @@
 }
 .content_title {
     width: 100%;
-    height: 30%;
+    height: auto;
     text-align: start;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 162);
     padding: 1%;
 }
 @media (max-width: 768px) {}
 /*============== Scren 425=============*/
 @media (max-width: 428px) {
     .content_title{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
-        height: 18%;
-        
+        height: 100%;
+
 
     }
 }

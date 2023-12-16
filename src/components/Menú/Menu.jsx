@@ -5,9 +5,15 @@ function Menu() {
   return (
     <div className={style.menu_main}>
       {menus.map((item, index) => (
-        <div key={index} className={style.content_menu} style={{backgroundImage: `url(${item.imagen})`}}>
-          <span className={style.category}>{`$${item.precio === null ? "10000" : item.precio},00`}</span>
+        <div
+          key={index}
+          className={style.content_menu}
+          style={{ backgroundImage: `url(${item.imagen})` }}
+        >
           <div className={style.container_title}>
+            <h2>{item.nombre.español}</h2>
+          </div>
+          <div className={style.container_card}>
             <Card
               nombre={item.nombre}
               categoria={item.categoria}
